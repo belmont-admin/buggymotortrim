@@ -1,0 +1,12 @@
+input.onButtonPressed(Button.AB, function () {
+    pins.servoWritePin(AnalogPin.P2, 90)
+    pins.servoWritePin(AnalogPin.P1, 90)
+})
+input.onButtonPressed(Button.B, function () {
+    pins.servoWritePin(AnalogPin.P2, 0)
+    pins.servoWritePin(AnalogPin.P1, 0)
+})
+input.onButtonPressed(Button.A, function () {
+    pins.servoWritePin(AnalogPin.P2, 180)
+    pins.servoWritePin(AnalogPin.P1, 180)
+})
